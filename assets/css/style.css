@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/space-bg.jpg");
+    color: rgb(96, 247, 27);
+    font-family: 'Audiowide', cursive;
+}
+
+label {
+    padding-right: 30px;
+    padding-left: 8px;
+}
+
+.container-custom {
+    background-image: url("../images/brown-rocky-background.jpg");
+    min-height: 700px;
+    max-width: 700px;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 50px black, 0px 0px 30px orangered, 0px 0px 50px black;
+}
+
+.textContainer {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    padding: 0px 20px;
+}
+
+.radios {
+    margin: 5px;
+    height: 20px;
+}
+
+.submitButton, .nextQuestionButton {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: inset 0px 0px 10px black, 0px 0px 20px orangered;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: orangered;
+    padding: 3px 10px 7px;
+    font-family: 'Audiowide', cursive;
+}
+
+#choicesText {
+    margin: 30px 0px;
+}
+
+#timerText {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+/* ******************************** MEDIA QUERIES ******************************** */
+@media screen and (max-width: 720px) {
+    .container-custom {
+        min-height: 500px;
+        max-width: 500px;
+    }
+    .textContainer {
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .container-custom {
+        width: 100%;
+        border-radius: 40%;
+        min-height: 550px;
+    }
+}
