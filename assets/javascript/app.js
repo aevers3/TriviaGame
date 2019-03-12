@@ -1,6 +1,6 @@
 // 1. Create an array of objects. Each object will contain properties for question, choices, user guess and correct answer
 var questionArr = [{
-    question: "In standard tuning, what's the lowest note on a guitar?",
+    question: "What's the lowest note on a typical guitar?",
     choices: ["A", "E", "C#", "F"],
     answerIndex: 1,
 }, {
@@ -19,6 +19,26 @@ var questionArr = [{
     question: "Before it was rebranded as a children's toy, Play-Doh was originally sold as what?",
     choices: ["Wallpaper Cleaner", "Kitchen Decoration Kit", "Leak-Sealing Clay", "Earwax Remover",],
     answerIndex: 0,
+}, {
+    question: "Saxophonist Charlie Parker also went by what nickname?",
+    choices: ["Charlie Brown", "Junior", "Bird", "Leadbelly",],
+    answerIndex: 2,
+}, {
+    question: "What city is the capital of Spain?",
+    choices: ["Madrid", "Barcelona", "Grenada", "Valencia",],
+    answerIndex: 0,
+}, {
+    question: "Who directed the Lord of the Rings trilogy?",
+    choices: ["John Woo", "James Cameron", "Ridley Scott", "Peter Jackson",],
+    answerIndex: 3,
+}, {
+    question: "Which popular cookie is a ripoff of Hydrox cookies?",
+    choices: ["Keebler Elf Cookies", "Oreos", "Thin Mints", "Samoas",],
+    answerIndex: 1,
+}, {
+    question: "In what year was the first James Bond novel released?",
+    choices: ["1940", "1948", "1953", "1960",],
+    answerIndex: 2,
 }]
 
 
