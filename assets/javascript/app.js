@@ -146,6 +146,11 @@ function getNextQuestion() {
 }
 
 
+function toggleMargin() {
+    console.log(window.innerWidth)
+    $('#questionText').removeClass('m-3');
+}
+
 function checkAnswer() {
     // Stop the timers.
     clearInterval(intervalId);
@@ -242,3 +247,8 @@ function resetTimer() {
 getNextQuestion();
 // resetTimer();
 
+
+
+if (window.innerWidth < 520) {
+    toggleMargin();
+}

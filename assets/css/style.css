@@ -105,4 +105,12 @@ label {
     #headerTriviaText {
         font-size: 5em;
     }
+
+    #questionText {
+        font-size: 1.5em;
+    }
+    
+    label {
+        font-size: 1em;
+    }
 }
