@@ -15,4 +15,7 @@ To get started, simply load index.html and prove your trivia knowledge!
 3. JS
 4. jQuery
 
+##Deployed App URL
+[Planet Trivia](https://aevers3.github.io/TriviaGame/index.html)
+
 This project was created and is maintained by Alex Evers.
